@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background */
+html body{
+    background-color: black;
+}
+/* navbar header  */
+/* nav left logo  */
+.left{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: inline;
+    position: absolute;
+}
+/* nav middle logo  */
+.middle{
+    margin-left: 375px;
+    margin-right: 75px;
+    display: inline; 
+}
+.middle img{
+    height: 550px;
+}
+/* nav right bar  */
+.right{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    display: inline-flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin: 20px;
+    padding: 10px;
+}
+/* button  */
+.rightbtn{
+    color: white;
+    background-color: rgb(30,30,33);
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 35px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: inline-flex;
+    position: relative;
+}
+
+/* main section one */
+main{
+    display: inline;
+    position: absolute;
+    margin: 125px;
+}
+.mimg{
+    height: 120px;
+}
+main h1{
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+h4{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+p{
+    width: 65%;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+main button{
+    border-radius: 5px;
+    width: 275px;
+    height: 50px;
+    background-color: rgb(30,30,33);
+}
+main button{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+main button img{
+    justify-content: left;
+    margin: 30px;
+}
+main button p{
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 600px;
+}
+main button h1{
+    color: white;
+    font-size: 15px;
+    font-weight: 600px;
+    margin: 15px;
+}
+
+/* main section two  */
+section{
+    display:inline-flex;
+    margin: 20px 100px;
+    margin-left: 250px;
+}
+#imas{
+    display: grid;
+    grid-template-areas: 
+    'ima1 ima2 ima3 ima4'
+    'ima1 ima2 ima3 ima4';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ima1{
+    grid-area: ima1;
+}.ima2{
+    grid-area: ima2;
+}.ima3{
+    grid-area: ima3;
+}.ima4{
+    grid-area: ima4;
+}
+/* main section three  */
+.mains3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+.mains3 img{
+    margin: 20px;
+    height: 100px;
+}
+.sec3{
+    display: inline-grid;
+    grid-template-areas: 
+    'icons icons secimg3 secimg3'
+    'icons icons secimg3 secimg3';
+    margin-top: 70px;
+}
+.secimg3{
+    grid-area: secimg3;
+}
+.secimg3 img{
+    height: 450px;
+}
+.icons{
+    grid-area: icons;
+    display: grid;
+    margin-left: 150px;
+}
+.s1{
+    width:190px;
+}
+.s1 p{
+   font-size: larger;
+   font-weight: 525;
+   margin: 0px; 
+}.s2{
+   width:190px;
+   margin-top: 20px;
+   margin-left: -50px;
+}
+.s2 p{
+   font-size: larger;
+   font-weight: 525;
+   margin: 0px; 
+}
+.s3{
+    width:190px;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.s3 p{
+   font-size: larger;
+   font-weight: 525;
+   margin: 0px; 
+}
+.s4{
+    width:250px;
+    margin-top: 20px;
+   margin-left: 50px;
+}
+.s4 p{
+   font-size: larger;
+   font-weight: 525;
+   margin: 0px; 
+}
+
+/* main section four  */
+.mains4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+.mains4 img{
+    margin: 30px;
+    height: 80px;
+}
+.sf{
+    display: inline-grid;
+    grid-template-areas: 
+    'sfimg sfimg sfdiv sfdiv'
+    'sfimg sfimg sfdiv sfdiv';
+    margin-left:500px
+}
+.sfimg{
+    grid-area: sfimg;
+    margin-right: 30px;
+}
+.sfdiv{
+    grid-area: sfdiv;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.sf p{
+    display: block;
+    font-size: larger;
+    font-weight: 500;
+    width: 212px;
+}
+.btn{
+    display: inline-grid;
+    grid-template-areas: 
+    'btnimg btnimg btnp btnp'
+    'btnimg btnimg btnp btnp';
+    background-color: rgb(30,30,33);
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+}
+.btn img{
+    grid-area: btnimg;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.btn p{
+    grid-area: btnp;
+    font-size: larger;
+    font-weight: 520;
+    margin-top: 8px;
+    margin-left: -50px;
+    color: white;
+}
+
+/* main section five  */
+.msf{
+    display: inline-grid;
+    grid-template-areas: 
+    'msfp msfp msfimg msfimg'
+    'msfp msfp msfimg msfimg';
+    background-color: rgb(30,30,33);
+    border-radius: 8px ;
+    margin-left: 375px;
+}
+.msfp{
+    margin-top: 70px;
+    margin-left: 90px;
+    grid-area: msfp;
+    color: white;
+}
+.msfimg{
+    grid-area: msfimg;
+    margin:50px
+}
+.msfp button{
+    display: inline-flex;
+    background-color: rgb(0,0,0);
+    width: 150px;
+    border-radius: 8px;
+}
+.msfp button img{
+    margin: 10px;
+}
+.msfp button p{
+    font-size: larger;
+    font-weight: 550;
+    margin: 10px;
+}
+
+/* main section six  */
+.msimg{
+    display: block;
+    margin-left:650px;
+}
+
+/* store products Album */
+.mss{
+    margin-top: 80px;
+    margin-left: 550px;
+    display: inline-grid;
+    grid-template-areas: 
+    'mss1 mss1 mss2 mss2'
+    'mss3 mss3 mss4 mss4'
+    'mss5 mss5 mss5 mss5';
+    grid-template-columns: 5fr 5fr;
+    grid-gap: 80px
+}
+/* nav product 1  */
+.mss1{
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    width: 200px;
+    display: inline;
+    grid-area: mss1;
+}
+.img1 img{
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.msss1 p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.msss1 span{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.msss1 button{
+    background-color:rgb(0,0,0); 
+    border-radius: 8px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right:20px; 
+    margin-top: -20px;
+}
+/* nav product 2  */
+.mss2{
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    width: 200px;
+    grid-area: mss2;
+    display: inline;
+}
+.img2 img{
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.msss2 p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.msss2 span{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.msss2 button{
+    background-color:rgb(0,0,0); 
+    border-radius: 8px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right:20px; 
+    margin-top: -20px;
+}
+/* nav product 3  */
+.mss3{
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    width: 200px;
+    grid-area: mss3;
+    display: inline;
+}
+.img3 img{
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.msss3 p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.msss3 span{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.msss3 button{
+    background-color:rgb(0,0,0); 
+    border-radius: 8px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right:20px; 
+    margin-top: -20px;
+}
+/* nav product 4 */
+.mss4{
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    width: 200px;
+    grid-area: mss4;
+    display: inline;
+}
+.img4 img{
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.msss4 p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.msss4 span{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.msss4 button{
+    background-color:rgb(0,0,0); 
+    border-radius: 8px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right:20px; 
+    margin-top: -20px;
+}
+/* nav product 5 */
+.mss5{
+    background-color: rgb(30,30,33);
+    border-radius: 8px;
+    width: 200px;
+    grid-area: mss5;
+    display: inline;
+}
+.img5 img{
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.msss5 p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.msss5 span{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.msss5 button{
+    background-color:rgb(0,0,0); 
+    border-radius: 8px;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right:20px; 
+    margin-top: -20px;
+}
+
+/* footer  */
+/* footer logo  */
+footer{
+    margin-top: 20px;
+    display: inline-grid;
+    grid-template-areas: 
+    'fl1 fdiv1 fdiv2 email logos uparrow'
+    'fl1 fdiv1 fdiv2 email logos uparrow';
+    grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr ;
+    grid-gap: 100px
+}
+.flogo{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: inline-grid;
+    position: absolute;
+}
+/* first div  */
+.fdiv1{
+    display: inline;
+}
+.fdiv1 a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: larger;
+    margin: 15px;
+    font-weight: 300;
+}
+    
+.fdiv1 a.fa{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+/* Second div  */
+.fdiv2{
+    display: inline;
+}
+.fdiv2 a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: larger;
+    margin: 15px;
+    font-weight: 300;
+}
+    
+.fdiv2 a.fa{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+/* social media  */
+.email{
+    background-color:  rgb(30,30,33);
+    border-radius: 8px;
+    height: 30px;
+    width: 150px;
+    
+}
+.email p{
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+.email button{
+    background-color: rgb(0,0,0);
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 400;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+
+ /* footer logos */
+.fl1{
+    grid-area: fl1;
+}
+.fdiv1{
+    grid-area: fdiv1;
+}
+.fdiv2{
+    grid-area: fdiv2;
+}
+.email{
+    grid-area: email;
+}
+.logos{
+    grid-area: logos;
+}
+.uparrow{
+    grid-area: uparrow;
+}
